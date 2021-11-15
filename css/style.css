@@ -1,0 +1,395 @@
+
+body
+{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: calibri;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.header
+{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+.header-inner
+{
+    width: 1200px;
+    margin: auto;
+    overflow:hidden;
+    
+}
+.logo h1
+{
+    margin: 0px;
+    line-height: 110px;
+}
+.logo
+{
+    float: left;
+    
+}
+.nav-bar
+{
+    float: right;
+    line-height: 80px;
+    word-spacing: 30px;
+    letter-spacing: 1px; 
+}
+.nav-bar a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+.nav-bar a::before
+{
+    position:absolute;
+    content: "";
+    left: 0;
+    bottom: -20%;
+    width: 0;
+    height: 2.5px;
+    background-color: blue;
+}
+.nav-bar a:hover:before{
+    width: 100%;
+}
+
+.banner
+{
+    width: 100%;
+    height: 665px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    position: absolute;
+    top: -230px;
+    margin-left: 145px;
+    font-family:calibri ;
+    font-size: 22px;
+    border-radius: 30px;
+    transition: .5s;
+    background: linear-gradient(to right,#0045FE,#8956f8 );
+    border: 2px solid rgb(34, 33, 33);
+    color: #fff;
+}
+.btn
+{
+    position: relative;
+}
+
+.body-copy
+{
+    width: 1200px;
+    margin: auto;
+    padding: 30px 5px 30px 30px;
+    
+}
+.body-copy h2
+{
+    /* margin: 0; */
+    text-align: center;
+}
+.about
+{
+    width: 1200px;
+    position: relative;
+}
+.about:after
+{
+    content: "";
+    position: absolute;
+    background-color: #0045FE;
+    height: 3px;
+    width: 10%;
+    left: 540px;
+    bottom: 143px;   
+}
+.coll-head
+{
+    margin-top: 50px;
+    position: relative;
+}
+.coll-head:after
+{
+    content: "";
+    position: absolute;
+    background-color:  #0045FE;
+    height: 3px;
+    width: 13%;
+    left: 523px;
+    bottom: -5px;
+
+    
+}
+.widgets
+{
+    width: 370px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 10px;
+    margin-right: 28px;
+    margin-bottom: 20px;
+    position: relative; 
+    box-shadow: 0 1px 6px 0 
+                rgb(217, 219, 220);
+    border-radius: 10px;
+    /* border: 1px dashed rgb(152, 155, 164); */
+    transition: .3s;
+    transition-delay: .2s;
+}
+
+
+.abs
+{
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    padding: 20px;  
+}
+.rel
+{
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    padding: 20px;  
+}
+.ab
+{
+    position: absolute;
+    bottom: 0;
+    right: 105px;
+    padding: 20px;    
+}
+.rev
+{
+    position: absolute;
+    bottom: 0;
+    right: 105px;
+    padding: 20px;    
+}
+.abo
+{
+    position: absolute;
+    bottom: 0;
+    right: 105px;
+    padding: 20px;    
+}
+.abn
+{
+    position: absolute;
+    bottom: 0;
+    right: 95px;
+    padding: 20px;    
+}
+.abl
+{
+    position: absolute;
+    bottom: 0;
+    right: 115px;
+    padding: 20px;    
+}
+.clear
+{
+    clear: both;
+}
+
+
+
+.pics
+{
+    position: absolute;
+    top: 15%;
+    right: 23%; 
+}
+.bill
+{
+   position: absolute;
+   top: 15%;
+   right: 23%;  
+}
+.table
+{
+   position: absolute;
+   top: 17%;
+   right: 23%;  
+}
+.seal
+{
+   position: absolute;
+   top: 17%;
+   right: 25%;  
+}
+.cho
+{
+   position: absolute;
+   top: 17%;
+   right: 25%;  
+}
+.cash
+{
+   position: absolute;
+   top: 20%;
+   right: 23%;  
+}
+.platform
+{
+   position: absolute;
+   top: 16%;
+   right: 25%;  
+}
+.jew
+{
+   position: absolute;
+   top: 16%;
+   right: 25%;  
+}
+.stool
+{
+   position: absolute;
+   top: 16%;
+   right: 23%;  
+}
+
+
+.review
+{
+    width: 1172px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 10px;   
+}
+
+.revi-v
+{
+    margin-bottom: 35px;
+    margin-top: 30px;
+    position: relative;
+}
+.revi-v:after
+{
+    content: "";
+    position: absolute;
+    background-color: #0045FE;
+    height: 3.5px;
+    width: 8%;
+    left: 540px;
+    bottom: -4px;   
+}  
+.left
+{
+    width: 500px;
+    height: 170px;
+    background-color: rgb(241, 253, 255);
+    float: left;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px dashed rgb(152, 155, 164);
+}
+.right
+{
+    width: 500px;
+    height: 170px;
+    background-color: rgb(241, 253, 255);
+    float: right;
+    padding: 35px;
+     border-radius: 10px;
+     border: 1px dashed rgb(152, 155, 164);
+}
+
+.footer
+{
+    position: relative;
+}
+.headf
+{
+    float: left;
+    position: absolute;
+    top: 40px;
+    right: 60%;
+}
+.headf:after
+{
+    content: "";
+    position: absolute;
+    background-color: #0045FE;
+    height: 3px;
+    width: 95%;
+    left: 5px;
+    bottom: 18px;   
+}  
+.numb
+{
+    position: absolute;
+    right: -350%;
+    top: 20%;
+    background-color: #fff;
+    padding: 25px 45px;
+    border-radius: 10px;
+}
+
+.addressf
+{
+    float: left;
+    position: absolute;
+    top: 135px;
+    right: 60%;  
+}
+.addressf:after
+{
+    content: "";
+    position: absolute;
+    background-color: #0045FE;
+    height: 3.5px;
+    width: 100%;
+    left: 0px;
+    bottom: 18px;   
+}  
+
+.add
+{
+    position: absolute;
+    right: -454%;
+    top: 20%;
+    background-color: #fff;
+    padding: 25px 45px;
+    border-radius: 10px;
+}
+.phones
+{
+    position: absolute;
+    margin-left: 43.5%;
+    margin-top: -13.2%;
+    color: rgb(88, 40, 171);
+}
+.placer
+{
+    position: absolute;
+    margin-left: 43.4%;
+    margin-top: -7%;
+    color: rgb(88, 40, 171);
+}
+
+.icons
+{
+    font-size: 25px;
+    color: blue;
+    margin-left: 45%;
+    margin-top: 20px;
+    letter-spacing: 13px;  
+}
+.icons i
+{
+    transition: all 0.3 linear;
+}
+.icons :hover i{
+    transform: scale(1.4);
+}
